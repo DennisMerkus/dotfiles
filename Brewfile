@@ -1,7 +1,7 @@
-tap "homebrew/cask"
 cask_args appdir: "/Applications"
 
-brew 'mas'
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 
 # Browsers
 cask 'firefox'
@@ -12,16 +12,20 @@ cask 'discord'
 
 # Productivity
 cask 'evernote'
+cask 'libreoffice'
 
-mas 'Todoist', id: 585829637
+# Ebooks
+cask 'calibre'
 
-# Media
+# Music
+cask 'clementine'
 cask 'spotify'
 
-cask 'calibre'
+cask 'qbittorrent'
 
 # Development
 cask 'visual-studio-code'
+cask 'pycharm'
 cask 'atom'
 
 cask 'java'
@@ -34,6 +38,30 @@ brew 'node'
 brew 'clojure/tools/clojure'
 brew 'leiningen'
 
+cask 'godot'
+
 # Design
 cask 'inkscape'
 
+# Infrastructure
+cask 'appcleaner'
+
+cask 'expressvpn'
+
+cask 'dropbox'
+cask 'google-backup-and-sync'
+
+# Mac App Store
+brew 'mas'
+mas 'Todoist', id: 585829637
+
+# Fonts
+#   Sans
+cask 'font-poppins'
+cask 'font-roboto'
+# cask 'font-tomorrow' https://fonts.google.com/specimen/Tomorrow
+#   Serif
+cask 'font-grenze'
+cask 'font-crimson-text'
+#   Monospace
+cask 'font-fira-code'
