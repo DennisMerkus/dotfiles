@@ -23,10 +23,14 @@ cask 'anki'
 # Media
 #  Ebooks
 cask 'calibre'
+cask 'yacreader'
 
 #  Music
 cask 'clementine'
 cask 'spotify'
+
+#  Video
+cask 'vlc'
 
 #  Torrents
 cask 'qbittorrent'
