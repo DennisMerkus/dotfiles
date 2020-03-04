@@ -3,6 +3,9 @@ cask_args appdir: "/Applications"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
+# Utilities
+brew 'wget'
+
 # Browsers
 cask 'firefox'
 
@@ -31,6 +34,7 @@ cask 'atom'
 cask 'java'
 
 brew 'git'
+cask 'sourcetree'
 
 brew 'python'
 brew 'node'
@@ -50,6 +54,8 @@ cask 'expressvpn'
 
 cask 'dropbox'
 cask 'google-backup-and-sync'
+
+cask 'keepassxc'
 
 # Mac App Store
 brew 'mas'
