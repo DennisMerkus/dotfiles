@@ -8,6 +8,7 @@ brew 'wget'
 
 # Browsers
 cask 'firefox'
+cask 'firefox-developer-edition'
 
 # Messaging
 cask 'telegram'
@@ -17,19 +18,25 @@ cask 'discord'
 cask 'evernote'
 cask 'libreoffice'
 
-# Ebooks
+cask 'anki'
+
+# Media
+#  Ebooks
 cask 'calibre'
 
-# Music
+#  Music
 cask 'clementine'
 cask 'spotify'
 
+#  Torrents
 cask 'qbittorrent'
 
 # Development
 cask 'visual-studio-code'
 cask 'pycharm'
 cask 'atom'
+
+cask 'mongodb-compass-community'
 
 cask 'java'
 
