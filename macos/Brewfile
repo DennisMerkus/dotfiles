@@ -43,6 +43,8 @@ cask 'visual-studio-code'
 cask 'pycharm'
 cask 'atom'
 
+cask 'iterm2'
+
 cask 'mongodb-compass-community'
 
 cask 'java'
