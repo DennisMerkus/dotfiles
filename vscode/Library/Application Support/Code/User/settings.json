@@ -1,1 +1,15 @@
-{}
+{
+    "workbench.startupEditor": "none",
+
+    "workbench.colorTheme": "Ayu Mirage",
+    "workbench.iconTheme": "ayu",
+
+    "editor.fontSize": 15,
+    "editor.fontFamily": "Fira Code", "Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorBlinking": "solid",
+
+    "editor.renderLineHighlight": "all",
+}
