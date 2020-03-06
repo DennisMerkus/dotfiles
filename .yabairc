@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+yabai -m config status_bar off
+
+yabai -m config layout bsp
