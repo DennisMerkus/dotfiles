@@ -5,6 +5,7 @@ tap "homebrew/cask-fonts"
 
 # Utilities
 brew 'wget'
+# brew 'koekeishiya/formulae/yabai'
 
 # Browsers
 cask 'firefox'
