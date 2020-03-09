@@ -13,6 +13,10 @@ brew 'stow'
 cask 'firefox'
 cask 'firefox-developer-edition'
 
+# E-mail
+cask 'thunderbird'
+cask 'protonmail-bridge'
+
 # Messaging
 cask 'telegram'
 cask 'discord'
@@ -29,11 +33,15 @@ cask 'calibre'
 cask 'yacreader'
 
 #  Music
-cask 'clementine'
 cask 'spotify'
+cask 'clementine'
+cask 'musicbrainz-picard'
+# cask 'xld'
 
 #  Video
 cask 'vlc'
+
+# cask 'handbrake'
 
 #  Torrents
 cask 'qbittorrent'
@@ -51,6 +59,9 @@ cask 'java'
 
 brew 'git'
 cask 'sourcetree'
+
+cask 'docker'
+brew 'kubernetes-cli'
 
 brew 'python'
 brew 'node'
@@ -71,7 +82,7 @@ cask 'expressvpn'
 cask 'dropbox'
 cask 'google-backup-and-sync'
 
-cask 'keepassxc'
+cask '1password'
 
 # Mac App Store
 brew 'mas'
@@ -83,7 +94,7 @@ cask 'font-poppins'
 cask 'font-roboto'
 # cask 'font-tomorrow' https://fonts.google.com/specimen/Tomorrow
 #   Serif
-cask 'font-grenze'
+# cask 'font-grenze'
 cask 'font-crimson-text'
 #   Monospace
 cask 'font-fira-code'
