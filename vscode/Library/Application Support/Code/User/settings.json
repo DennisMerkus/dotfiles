@@ -14,4 +14,6 @@
     "editor.cursorBlinking": "solid",
 
     "editor.renderLineHighlight": "all",
+    "terminal.explorerKind": "external",
+    "terminal.external.osxExec": "Hyper.app",
 }

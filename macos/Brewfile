@@ -5,9 +5,12 @@ tap "homebrew/cask-versions"
 tap "homebrew/cask-fonts"
 
 # Utilities
+brew 'zsh'
 brew 'wget'
 brew 'stow'
 # brew 'koekeishiya/formulae/yabai'
+
+cask 'caffeine'
 
 # Browsers
 cask 'firefox'
@@ -51,7 +54,8 @@ cask 'visual-studio-code'
 cask 'pycharm'
 cask 'atom'
 
-cask 'iterm2'
+cask 'hyper'
+cask 'dash'
 
 cask 'mongodb-compass-community'
 
