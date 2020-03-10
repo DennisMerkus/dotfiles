@@ -4,30 +4,49 @@ tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/cask-fonts"
 
-# Utilities
+# Internet & Convenience
+cask 'expressvpn'
+cask '1password'
+
+cask 'dropbox'
+cask 'google-backup-and-sync'
+
+# Terminal
+cask 'hyper'
 brew 'zsh'
 brew 'wget'
 brew 'stow'
-# brew 'koekeishiya/formulae/yabai'
 
+# Utilities
 cask 'caffeine'
+
+cask 'rectangle'
+
 
 # Browsers
 cask 'firefox'
 cask 'firefox-developer-edition'
 
+
 # E-mail
 cask 'thunderbird'
 cask 'protonmail-bridge'
+
 
 # Messaging
 cask 'telegram'
 cask 'discord'
 
-# Productivity
+
+# Notes
 cask 'evernote'
+
+
+# Office
 cask 'libreoffice'
 
+
+# Learning
 cask 'anki'
 
 # Media
@@ -36,36 +55,39 @@ cask 'calibre'
 cask 'yacreader'
 
 #  Music
-cask 'spotify'
 cask 'clementine'
+cask 'spotify'
+
 cask 'musicbrainz-picard'
+
 # cask 'xld'
+
 
 #  Video
 cask 'vlc'
 
 # cask 'handbrake'
 
+
 #  Torrents
 cask 'qbittorrent'
 
+
 # Development
+#  IDEs
 cask 'visual-studio-code'
 cask 'pycharm'
 cask 'atom'
 
-cask 'hyper'
-cask 'dash'
-
-cask 'mongodb-compass-community'
-
-cask 'java'
-
+#  VCSs
 brew 'git'
 cask 'sourcetree'
 
-cask 'docker'
-brew 'kubernetes-cli'
+#  Helpers
+cask 'dash'
+
+#  Languages & Runtimes
+cask 'java'
 
 brew 'python'
 brew 'node'
@@ -73,20 +95,26 @@ brew 'node'
 brew 'clojure/tools/clojure'
 brew 'leiningen'
 
+#  Databases
+cask 'mongodb-compass-community'
+
+#  Containerization & Orchestration
+cask 'docker'
+brew 'kubernetes-cli'
+brew 'minikube'
+cask 'virtualbox'
+
+#  Game Development
 cask 'godot'
+
 
 # Design
 cask 'inkscape'
 
-# Infrastructure
+
+# Maintenance
 cask 'appcleaner'
 
-cask 'expressvpn'
-
-cask 'dropbox'
-cask 'google-backup-and-sync'
-
-cask '1password'
 
 # Mac App Store
 brew 'mas'
