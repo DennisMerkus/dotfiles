@@ -1,1 +1,9 @@
 alias ls="ls -alG"
+
+# Homebrew
+alias brewi="brew install"
+alias brewr="brew remove"
+
+alias brewci="brew cask install"
+alias brewcr="brew cask remove"
+

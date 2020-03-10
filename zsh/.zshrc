@@ -11,6 +11,8 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 
 antigen theme denysdovhan/spaceship-prompt
 
+SPACESHIP_KUBECTL_SHOW=true
+
 antigen apply
 
 # Load aliases
