@@ -100,9 +100,11 @@ cask 'mongodb-compass-community'
 
 #  Containerization & Orchestration
 cask 'docker'
+
 brew 'kubernetes-cli'
-brew 'minikube'
 cask 'virtualbox'
+brew 'minikube'
+
 
 #  Game Development
 cask 'godot'

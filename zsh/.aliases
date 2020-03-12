@@ -7,3 +7,6 @@ alias brewr="brew remove"
 alias brewci="brew cask install"
 alias brewcr="brew cask remove"
 
+# Python
+alias pyvenv="python3 -m venv .venv"
+alias venvs="source .venv/bin/activate"

@@ -1,6 +1,6 @@
 {
     "telemetry.enableTelemetry": false,
-    
+
     "workbench.startupEditor": "none",
 
     "workbench.colorTheme": "Ayu Mirage",
@@ -14,6 +14,13 @@
     "editor.cursorBlinking": "solid",
 
     "editor.renderLineHighlight": "all",
-    "terminal.explorerKind": "external",
     "terminal.external.osxExec": "Hyper.app",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "vs-kubernetes": {
+        "vs-kubernetes.helm-path.mac": "/Users/dennis/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vs-kubernetes.draft-path.mac": "/Users/dennis/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+    },
+    "files.exclude": {
+        "**/__pycache__": true
+    },
 }
