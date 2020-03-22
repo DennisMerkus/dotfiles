@@ -10,3 +10,6 @@ alias brewcr="brew cask remove"
 # Python
 alias pyvenv="python3 -m venv .venv"
 alias venvs="source .venv/bin/activate"
+
+alias pip-upgrade="pip freeze --user | cut -d'=' -f1 | xargs -n1 pip install -U"
+alias pip-upgrade-venv="pip freeze | cut -d'=' -f1 | xargs -n1 pip install -U"

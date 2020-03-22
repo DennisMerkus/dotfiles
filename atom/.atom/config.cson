@@ -1,10 +1,25 @@
 "*":
+  "autocomplete-plus":
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
   core:
+    disabledPackages: [
+      "julia-client"
+    ]
     telemetryConsent: "no"
   editor:
     fontFamily: "Fira Code, Consolas, DejaVu Sans Mono, monospace"
     fontSize: 15
+    scrollPastEnd: true
   "exception-reporting":
     userId: "50f528fc-23c5-4ad7-88e6-8e93cd9cf709"
+  "julia-client":
+    firstBoot: false
+    uiOptions:
+      enableMenu: true
+      enableToolBar: true
+  "tool-bar":
+    position: "Left"
+  "uber-juno":
+    disable: true
   welcome:
     showOnStartup: false
