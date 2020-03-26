@@ -1,28 +1,72 @@
 {
-    "telemetry.enableTelemetry": false,
+  "telemetry.enableTelemetry": false,
 
-    "workbench.startupEditor": "none",
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Ayu Mirage",
+  "workbench.iconTheme": "ayu",
 
-    "workbench.colorTheme": "Ayu Mirage",
-    "workbench.iconTheme": "ayu",
+  "editor.fontSize": 15,
+  "editor.fontFamily": "'Fira Code', 'Consolas', 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "solid",
+  "editor.renderLineHighlight": "all",
 
-    "editor.fontSize": 15,
-    "editor.fontFamily": "'Fira Code', 'Consolas', 'Courier New', monospace",
-    "editor.fontLigatures": true,
+  "terminal.external.osxExec": "Hyper.app",
+  "terminal.integrated.shell.osx": "/bin/zsh",
 
-    "editor.cursorStyle": "line-thin",
-    "editor.cursorBlinking": "solid",
+  "vs-kubernetes": {
+    "vs-kubernetes.helm-path.mac": "/Users/dennis/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+    "vs-kubernetes.draft-path.mac": "/Users/dennis/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+  },
 
-    "editor.renderLineHighlight": "all",
-    "terminal.external.osxExec": "Hyper.app",
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "vs-kubernetes": {
-        "vs-kubernetes.helm-path.mac": "/Users/dennis/.vs-kubernetes/tools/helm/darwin-amd64/helm",
-        "vs-kubernetes.draft-path.mac": "/Users/dennis/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+  "files.exclude": {
+    "**/__pycache__": true
+  },
+
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "black",
+
+  "editor.tabCompletion": "on",
+
+  "editor.formatOnSave": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+    }
+  },
+  "[css]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true ,
+    "editor.quickSuggestions": {
+      "strings": true
     },
-    "files.exclude": {
-        "**/__pycache__": true
-    },
-    "python.linting.flake8Enabled": true,
+    "editor.suggest.insertMode": "replace"
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  },
 
+  "tailwindCSS.emmetCompletions": true,
+
+  "vetur.format.defaultFormatter.ts": "prettier-tslint",
+  "vetur.format.defaultFormatter.js": "prettier-eslint"
 }
