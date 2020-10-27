@@ -1,0 +1,13 @@
+[user]
+	name = Dennis Merkus
+	email = dennis.merkus@pm.me
+[core]
+	excludesfile = /Users/dennis/.gitignore_global
+[difftool "sourcetree"]
+	cmd = " "
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/dennis/.stCommitMsg

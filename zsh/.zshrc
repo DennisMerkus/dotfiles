@@ -19,3 +19,4 @@ antigen apply
 if [[ -f ~/.aliases ]]; then
   source ~/.aliases
 fi
+export PATH="/usr/local/opt/python@3.8/bin:$PATH"
